@@ -1,8 +1,10 @@
 Instructions:
 
-Clone the Django application
+++++++++++++++++++++++
+Clone the repository
 
-venv -v env new_env
+python3 -m venv new_env
+source new_env/bin/active
 
 pip install -r requirements.txt
 
