@@ -4,7 +4,7 @@ import { BrowserRouter, Link, Route } from 'react-router-dom/cjs/react-router-do
 class Nav extends React.Component {
     render() {
         return (
-            <Link to="/">
+            <Link to="/website">
             <div class="nav">
                 <h1>Slacker Bikes</h1>
             </div>

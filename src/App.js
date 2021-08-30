@@ -19,7 +19,7 @@ function App() {
         <Nav />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/website">
               <Menu />
             </Route>
 
