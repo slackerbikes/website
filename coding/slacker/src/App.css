@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+
+@font-face {
+  font-family: SWIsot1;
+  src: url('./fonts/SWIsot1_Regular.ttf')
+}
+
+@font-face {
+  font-family: Movement;
+  src: url('./fonts/Movement-DirectBlack.otf')
+}
+
+:root {
+  --main-bg-color: #1797C4;
+  --main-text-color: #F0CD15;
+}
+
+html {
+  background: rgba(0,212,255,1);
+  background-image: url('./images/Slacker_BG.png');
+  /* background: rgb(2,103,139);
+  background: linear-gradient(90deg, rgba(2,103,139,1) 0%, rgba(23,151,196,1) 35%, rgba(0,212,255,1) 100%);  */
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  font-family: Movement;
+  color: var(--main-text-color);
+  font-size:40px;
+}
+
+.tile-container {
+  display:flex;
+  align-content: stretch;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  font-family: Movement;
+  font-size: 25px;
+}
+
+.tile {
+  /* Flex  */
+  display:flex;
+  justify-content: center;
+  /* Colour + Padding */
+  margin: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 3px solid #f0cb15;
+  box-shadow:8px 8px 8px #74620a94;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  /* Animation  */
+  /* transition: transform .2s;  */
+  width:auto;
+  top: 0;
+  position: relative;
+  transition: top ease 1s;
+}
+
+.tile:hover {
+  top: -5px;
+  left: -5px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:auto;
+  width: 60%;
+  font-family: SWIsot1;
+  color: white;
+  font-size: 30px;
+}
+
+.booking-button {
+  width:20%;
+  justify-content: center;
+  margin: auto;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+   .nav {
+     font-size: 25px;
+   }
+    .tile-container  {
+      font-size: 15px;
+    }
+
+    .desc {
+     width:95%;
+     font-size: 20px; 
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+  .tile-container {
+    width:95%;
+  }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+  .tile-container {
+    width:90%;
+  }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+  .tile-container {
+    width:40%;
+  }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+   .tile-container {
+     width:30%;
+   }
+ } 
+
+/* .tile {
+  display:flex;
+  flex-basis:29%;
+  justify-content: center;
+  width:10%;
+  height:10%;
+  padding-top: 5%;
+  order:2;
+  margin: 10px;
+  border: 2px solid #73AD21;
+}
+
+#booking {
+  padding-left:10%;
+  padding-right:5%;
+}
+
+#about {
+  padding-left:5%;
+  padding-right:2%;
+} */
