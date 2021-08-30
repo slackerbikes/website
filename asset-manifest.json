@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.bf0dda45.chunk.css",
+    "main.js": "/website/static/js/main.465a99df.chunk.js",
+    "main.js.map": "/website/static/js/main.465a99df.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.89b651e1.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.89b651e1.js.map",
+    "static/js/2.e9fb0f19.chunk.js": "/website/static/js/2.e9fb0f19.chunk.js",
+    "static/js/2.e9fb0f19.chunk.js.map": "/website/static/js/2.e9fb0f19.chunk.js.map",
+    "static/js/3.c0223255.chunk.js": "/website/static/js/3.c0223255.chunk.js",
+    "static/js/3.c0223255.chunk.js.map": "/website/static/js/3.c0223255.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.bf0dda45.chunk.css.map": "/website/static/css/main.bf0dda45.chunk.css.map",
+    "static/js/2.e9fb0f19.chunk.js.LICENSE.txt": "/website/static/js/2.e9fb0f19.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/website/static/media/Slacker_BG.81a66774.png",
+    "static/media/logo.6ce24c58.svg": "/website/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89b651e1.js",
+    "static/js/2.e9fb0f19.chunk.js",
+    "static/css/main.bf0dda45.chunk.css",
+    "static/js/main.465a99df.chunk.js"
+  ]
+}
